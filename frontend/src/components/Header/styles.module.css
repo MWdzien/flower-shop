@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 0;
+  padding: 35px;
+  justify-content: right;
+  width: 100%;
+  box-sizing: border-box;
+  align-content: center;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+}
+.header .nav .button {
+  transform: scale(0);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1000;
+  padding: 15px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.module.css.map */

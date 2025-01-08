@@ -1,0 +1,17 @@
+.container{
+  height: 100vh;
+  position: fixed;
+  background-color: #1a1a1a;
+  right: 0;
+  top: 0;
+  color: white;
+  z-index: 3;
+  .body{
+    width: 40vw;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

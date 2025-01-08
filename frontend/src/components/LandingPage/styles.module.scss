@@ -1,0 +1,40 @@
+.container{
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+
+  margin-bottom: 100vh;
+
+  .body{
+    .text{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-top: 300px;
+      margin-right: 20vw;
+      margin-left: 20vw;
+
+      h1 {
+        text-transform: uppercase;
+        color: var(--background-color);
+        font-size: 12rem;
+        text-align: center;
+        z-index: 2;
+      }
+    }
+
+    .imageContainer{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      min-height: 100vh;
+      img{
+        object-fit: cover;
+      }
+      height: 100vh;
+      z-index: 1;
+    }
+  }
+}

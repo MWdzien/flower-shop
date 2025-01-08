@@ -1,0 +1,34 @@
+@font-face {
+  font-family: nightingale;
+  src: url("../../public/fonts/DTNightingale-Light.otf") format('opentype');
+}
+
+:root {
+  --primary-color1: #420000;
+  --primary-color: black;
+  --primary2-color: #69140E;
+  --primary-shade: #240705;
+  --background-color1: #FFFAED;
+  --background-color: #fff;
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  font-family: nightingale, serif;
+  height: 100%;
+  margin: 0px;
+  margin-bottom: 200vh;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+

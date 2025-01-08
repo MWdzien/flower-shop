@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.container .image {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+.container .image img {
+  object-fit: cover;
+}
+.container .text {
+  padding-left: 30px;
+}
+.container .text span {
+  display: flex;
+  gap: 12px;
+}
+.container .text span button {
+  all: unset;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.module.css.map */
